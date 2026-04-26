@@ -13,7 +13,7 @@ let proxyIP = 'proxyip.fxxk.dedyn.io';
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
 }
-
+ 
 export default {
 	/**
 	 * @param {import("@cloudflare/workers-types").Request} request
